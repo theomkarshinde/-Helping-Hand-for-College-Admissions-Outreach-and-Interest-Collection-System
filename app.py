@@ -88,7 +88,7 @@ def send_message():
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
 # The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = "1fkFI4_uaildO1QeogRPZcMExHQ5rB3bDAJyD6XuNraw"
+SAMPLE_SPREADSHEET_ID = "your_spreadsheet_id"
 
 @app.route('/main', methods=['GET'])
 def main():
